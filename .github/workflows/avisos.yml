@@ -1,0 +1,37 @@
+# Avisos de terceiros — nenhum artefato sai deste repositório sem licença e
+# aviso de origem. Repositório PÚBLICO: roda só em runner hospedado do GitHub,
+# nunca no runner self-hosted do homelab (PR de fork executaria código lá).
+name: Avisos de terceiros
+
+on:
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published, edited]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: avisos-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  avisos:
+    name: Proveniência, licenças e avisos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Testes do verificador (defeitos plantados têm de reprovar)
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+
+      - name: Manifestos, textos de licença e THIRD_PARTY_NOTICES.md em sincronia
+        run: python3 scripts/avisos.py verificar
+
+      - name: Todo asset publicado tem proveniência, SHA-256 igual e aviso anexado
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/avisos.py verificar-releases

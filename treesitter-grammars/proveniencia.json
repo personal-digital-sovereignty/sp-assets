@@ -1,0 +1,403 @@
+{
+  "linha": "treesitter-grammars",
+  "release": "treesitter-grammars-v1",
+  "ferramenta": {
+    "tree-sitter-cli": "0.26.13",
+    "licenca_spdx": "MIT",
+    "observacao": "ferramenta de build; não é redistribuída. Os .wasm importam a libc do hospedeiro (malloc, iswalnum, ...) em vez de embuti-la."
+  },
+  "assets": [
+    {
+      "arquivo": "tree-sitter-bash.wasm",
+      "sha256": "328619e62c6a938cb5fd66c7a9162444d2b3367944fd79ccb241ca035f151848",
+      "bytes": 1405219,
+      "publicado_em": "2026-08-28T16:17:37Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-bash",
+      "commit": "a06c2e4415e9bc0346c6b86d401879ffb44058f7",
+      "data_do_commit": "2025-12-02T09:01:54-08:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-bash/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-c.wasm",
+      "sha256": "83e8d7902b9d7f8c7c5cd4bd9acb5c7eb5faf42c09f85546b183964d3b5f48f9",
+      "bytes": 645157,
+      "publicado_em": "2026-08-28T16:17:35Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-c",
+      "commit": "b780e47fc780ddc8da13afa35a3f4ed5c157823d",
+      "data_do_commit": "2026-04-22T04:03:16-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-c/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-c_sharp.wasm",
+      "sha256": "da38855696950607987c6eee3a8468dea4b102f7328f5cf13dee546c07e2de48",
+      "bytes": 5867157,
+      "publicado_em": "2026-08-28T16:17:35Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-c-sharp",
+      "commit": "9150f7d56bb47f1a809fa23623f1ba1413e93fa9",
+      "data_do_commit": "2026-07-15T22:13:50+01:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-c-sharp/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-cpp.wasm",
+      "sha256": "efafdf79ff7db04538f018cc5a69dff3d444f791ad605ba9c38a8a486324f8d4",
+      "bytes": 5624976,
+      "publicado_em": "2026-08-28T16:17:35Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-cpp",
+      "commit": "8b5b49eb196bec7040441bee33b2c9a4838d6967",
+      "data_do_commit": "2026-02-24T18:13:31-06:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-cpp/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-dart.wasm",
+      "sha256": "ede6ea159cb76436f2e39adc1835836efc341eed14e07c24839b00397f715726",
+      "bytes": 1158734,
+      "publicado_em": "2026-08-28T16:17:38Z",
+      "upstream": "https://github.com/UserNobody14/tree-sitter-dart",
+      "commit": "be07cf7118d3dba06236a3f19541685a68209934",
+      "data_do_commit": "2026-07-06T22:03:01-06:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/UserNobody14__tree-sitter-dart/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-elixir.wasm",
+      "sha256": "92dcfb5bb86f901ada51f30a861e7b4d02cc42cab2d29d9b4b640875559fa355",
+      "bytes": 1644226,
+      "publicado_em": "2026-08-28T16:17:38Z",
+      "upstream": "https://github.com/elixir-lang/tree-sitter-elixir",
+      "commit": "4b0c7118760af58a2e7081bbc8396e136f820b37",
+      "data_do_commit": "2026-07-20T14:56:46+02:00",
+      "subdiretorio": null,
+      "licenca_spdx": "Apache-2.0",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/elixir-lang__tree-sitter-elixir/LICENSE",
+        "treesitter-grammars/licencas/elixir-lang__tree-sitter-elixir/NOTICE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-go.wasm",
+      "sha256": "7ca9e17e2b4fe236cb1d2386b0dfa897d7f13016cb88c1a5c8c1140719e5e514",
+      "bytes": 218901,
+      "publicado_em": "2026-08-28T16:17:35Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-go",
+      "commit": "2346a3ab1bb3857b48b29d779a1ef9799a248cd7",
+      "data_do_commit": "2025-09-15T19:33:52-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-go/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-haskell.wasm",
+      "sha256": "faeadc9de27c4b40fc7221fc683b62b69feb7976c8ce194442c136fb608ee9c5",
+      "bytes": 3846334,
+      "publicado_em": "2026-08-28T16:17:38Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-haskell",
+      "commit": "0975ef72fc3c47b530309ca93937d7d143523628",
+      "data_do_commit": "2025-01-31T02:55:06-05:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-haskell/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-java.wasm",
+      "sha256": "84e70408b5f5e693f77768930ee0f56dd1a21f40b4bd63b16c39d477fceea60c",
+      "bytes": 416781,
+      "publicado_em": "2026-08-28T16:17:35Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-java",
+      "commit": "e10607b45ff745f5f876bfa3e94fbcc6b44bdc11",
+      "data_do_commit": "2025-09-14T23:45:52-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-java/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-javascript.wasm",
+      "sha256": "06ad932f038e999733c8aae0b7ff0c8bd22953c10a681d39c69c77e6e707c90e",
+      "bytes": 416499,
+      "publicado_em": "2026-08-28T10:39:04Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-javascript",
+      "commit": "58404d8cf191d69f2674a8fd507bd5776f46cb11",
+      "data_do_commit": "2025-09-14T23:42:24-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-javascript/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-json.wasm",
+      "sha256": "134d9b0278cfd4be22e568412d16f0f6ae73a1bf015807ab4be872d32f511a92",
+      "bytes": 6274,
+      "publicado_em": "2026-08-28T10:39:04Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-json",
+      "commit": "254c42a6476413b776221e03982ac8ae159eeb72",
+      "data_do_commit": "2026-08-17T00:39:40-10:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-json/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-kotlin.wasm",
+      "sha256": "abe1b9bdb746cbd8622250ec71e1a125e7cacda228a3ceb96fd4c24e60008bb9",
+      "bytes": 5837109,
+      "publicado_em": "2026-08-28T16:17:37Z",
+      "upstream": "https://github.com/fwcd/tree-sitter-kotlin",
+      "commit": "1852ea17b7f60fb3f9d84e0b1555d56b46b39fb1",
+      "data_do_commit": "2026-08-02T00:03:05+01:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/fwcd__tree-sitter-kotlin/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-lua.wasm",
+      "sha256": "df08a1704e504c70b8dba4a3e6f8e0c99a4fb94e1b1693d2969f53141d09f0d4",
+      "bytes": 54603,
+      "publicado_em": "2026-08-28T16:17:39Z",
+      "upstream": "https://github.com/tree-sitter-grammars/tree-sitter-lua",
+      "commit": "10fe0054734eec83049514ea2e718b2a56acd0c9",
+      "data_do_commit": "2026-02-26T18:57:35+01:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter-grammars__tree-sitter-lua/LICENSE.md"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-php.wasm",
+      "sha256": "aa0fbc1dcbed6a605eed28b5f24a32d2280f25e4a5ae47da5c3d628defef32a1",
+      "bytes": 1079511,
+      "publicado_em": "2026-08-28T16:17:36Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-php",
+      "commit": "3fda2fb9577166c6399834917f9844f30370beea",
+      "data_do_commit": "2026-07-20T15:25:53-05:00",
+      "subdiretorio": "php",
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-php/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-python.wasm",
+      "sha256": "884602704cf0b2a4e7d08ad3c94afea16366a4e4ce76644ce236022e2304c070",
+      "bytes": 460888,
+      "publicado_em": "2026-08-28T10:39:04Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-python",
+      "commit": "26855eabccb19c6abf499fbc5b8dc7cc9ab8bc64",
+      "data_do_commit": "2025-09-15T17:33:35-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-python/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-r.wasm",
+      "sha256": "5171b720125b794be115fe554bb82af79935cbed0104671ae10b515d77208442",
+      "bytes": 491644,
+      "publicado_em": "2026-08-28T16:17:37Z",
+      "upstream": "https://github.com/r-lib/tree-sitter-r",
+      "commit": "58a22794466c0fc15b0d3b40531db751593721e8",
+      "data_do_commit": "2026-06-22T10:04:36-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/r-lib__tree-sitter-r/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-ruby.wasm",
+      "sha256": "88e134818075bcef42087b3ecf549a0e137d0f17d5382dd2f94c790b5e7d744a",
+      "bytes": 2126195,
+      "publicado_em": "2026-08-28T16:17:36Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-ruby",
+      "commit": "ad907a69da0c8a4f7a943a7fe012712208da6dee",
+      "data_do_commit": "2026-03-10T02:27:41-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-ruby/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-rust.wasm",
+      "sha256": "24c89bd9252255e4aebbcbd7d2d308bd92c86dd95a130fdc80efa49577b8d738",
+      "bytes": 1118099,
+      "publicado_em": "2026-08-28T10:39:04Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-rust",
+      "commit": "77a3747266f4d621d0757825e6b11edcbf991ca5",
+      "data_do_commit": "2026-03-27T14:05:57-07:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-rust/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-scala.wasm",
+      "sha256": "527e7cd9d45cac6ed9a2ee40b1412992dd5101fe7dc537e5e9f0e2f9653c3ec3",
+      "bytes": 4062486,
+      "publicado_em": "2026-08-28T16:17:38Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-scala",
+      "commit": "db390f312a54b04b13790e1767bfac32665c17ac",
+      "data_do_commit": "2026-08-25T05:26:53-04:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-scala/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-swift.wasm",
+      "sha256": "48738b1a00b259b4559c9d4c085e5cfc9a3789ddf5ce7637017a49f61234bf95",
+      "bytes": 3836914,
+      "publicado_em": "2026-08-28T16:17:37Z",
+      "upstream": "https://github.com/alex-pinkus/tree-sitter-swift",
+      "commit": "45e8dcdf09d67e63b6e1f7d47e9ac7d123a34269",
+      "data_do_commit": "2026-08-25T03:58:52-07:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/alex-pinkus__tree-sitter-swift/LICENSE"
+      ],
+      "processo": "tree-sitter generate && tree-sitter build --wasm",
+      "script_de_build": "sp-service@5cbfbe8:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-tsx.wasm",
+      "sha256": "28fd7df7f2531af8deefa41c42b1f38a42b16141f8864d335439704eaf6cb465",
+      "bytes": 1450769,
+      "publicado_em": "2026-08-28T10:39:04Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-typescript",
+      "commit": "75b3874edb2dc714fb1fd77a32013d0f8699989f",
+      "data_do_commit": "2025-01-30T14:11:39-08:00",
+      "subdiretorio": "tsx",
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-typescript/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-typescript.wasm",
+      "sha256": "13677574a6375e1b12e98579850c55a4db5952ad8bacd673110007ac7cfd7e69",
+      "bytes": 1418221,
+      "publicado_em": "2026-08-28T10:39:05Z",
+      "upstream": "https://github.com/tree-sitter/tree-sitter-typescript",
+      "commit": "75b3874edb2dc714fb1fd77a32013d0f8699989f",
+      "data_do_commit": "2025-01-30T14:11:39-08:00",
+      "subdiretorio": "typescript",
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter__tree-sitter-typescript/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    },
+    {
+      "arquivo": "tree-sitter-yaml.wasm",
+      "sha256": "605329053f4065dbc254da88896fd5da26122098f25b8b40990415cd1602a635",
+      "bytes": 197622,
+      "publicado_em": "2026-08-28T10:39:05Z",
+      "upstream": "https://github.com/tree-sitter-grammars/tree-sitter-yaml",
+      "commit": "a1c4812a73ec5e089de8e441fdea3a921e8d5079",
+      "data_do_commit": "2026-05-22T07:56:15+02:00",
+      "subdiretorio": null,
+      "licenca_spdx": "MIT",
+      "arquivos_de_licenca": [
+        "treesitter-grammars/licencas/tree-sitter-grammars__tree-sitter-yaml/LICENSE"
+      ],
+      "processo": "tree-sitter build --wasm sobre o parser.c commitado (sem generate)",
+      "script_de_build": "sp-service@711ffea:scripts/build_treesitter_grammars.sh",
+      "prova": "SHA-256 recompilado de forma independente em 2026-10-13 a partir deste commit, com tree-sitter-cli 0.26.13, igual ao do asset publicado"
+    }
+  ]
+}
